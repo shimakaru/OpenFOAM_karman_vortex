@@ -1,4 +1,5 @@
 ls [0-9][1-9].* -d > .gitignore
+ls [0-9].* -d >> .gitignore
 ls [0-9][1-9] -d >> .gitignore
 ls [1-9] -d >> .gitignore
 git add .
