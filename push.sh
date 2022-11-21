@@ -1,5 +1,6 @@
-ls *.? -d > .gitignore
-ls *.?? -d >> .gitignore
+ls [0-9][1-9].* -d > .gitignore
+ls [0-9][1-9] -d >> .gitignore
+ls [1-9] -d >> .gitignore
 git add .
 git commit -m "nth commit"
 git branch -M main
